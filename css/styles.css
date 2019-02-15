@@ -1,0 +1,37 @@
+html, body{margin: 0; font-family: "Open Sans", sans-serif}
+img{max-width: 100%;}
+
+.searchForm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.searchForm div{
+	display: flex;
+	justify-content: center;
+}
+
+input#query, button#search{
+	padding: 0.5rem;
+}
+
+input#query{
+	width: 100%;
+}
+
+section#pokemonWrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section#pokemonWrapper figure img{
+	transition: transform .2s;
+}
+
+section#pokemonWrapper figure img:hover{
+	transform: scale(1.2);
+}
